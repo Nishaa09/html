@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#box{
+    height:10vh;
+    width:100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+
+.navbar a{
+    margin:20px;
+    font-size: 5vh;
+    font-weight: 500px;
+    
+}
+
+#hero{
+    height:50vh;
+    width:100%;
+    background-color: black;
+    color: white;
+    margin:10px 0px;
+    padding:10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#intro{
+    height:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    flex-wrap: wrap;
+}
+#profile-pic img{
+    height:40vh;
+    border-radius: 20%;
+}
+
+#intro h1{
+    font-size: 5vh;
+    margin-bottom: 10px;
+}
+#intro p{
+    font-size: 3vh;
+    margin-bottom: 20px;
+}
+#intro a{
+    font-size: 3vh;
+    margin: 7px;
+    color: white;
+    
+}
+#intro button{
+    font-size: 3vh;
+    margin:10px;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(127, 255, 212);
+    
+}
+#intro button:active{
+    transform: scale(0.9);
+    }
+
+#main{
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+    background-color: black;
+    color: white;
+}
+
+#main h2{
+    font-size: 5vh;
+    margin: 20px;
+}
+#main div{
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#main div div{
+    height:90%;
+    width: 25%;
+    box-shadow: 0px 0px 10px rgb(127, 255, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+#main div div h4{
+    font-size: 4vh;
+    margin-bottom: 10px;
+    font-weight: 500px;
+    margin: 10px;
+    padding:10px;
+}
+#main div div p{
+    font-size: 2.5vh;
+    margin: 10px;
+    padding:10px;
+}
+
+#skill{
+    height:25vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+}
+#skill h2{
+    font-size: 5vh;
+    margin-top: 20px;
+    padding:10px
+}
+#skill div{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#skill div p{
+    font-size: 3vh;
+    color :black;
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    width: 10%;
+    /* box-shadow: 0px 0px 10px rgb(127, 255, 212); */
+    font-weight: 500;
+}
+
+#project{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+}
+#project h2{
+    font-size: 5vh;
+    margin-top: 20px;
+    padding:10px
+}
+#project div{
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.out {
+    height: 100%;
+    width: 25%;
+    box-shadow: 0px 0px 10px rgb(127, 255, 212);
+    display: flex;           
+    flex-direction: column;  
+    overflow: hidden;        
+    border-radius: 10px; 
+  
+}
+.out:active{
+    transform: scale(0.9);
+}
+
+
+.pimg {
+    height: 70%;            
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.out p {
+    height: 25%;             
+    font-size: 2.5vh;
+    margin: 0;              
+    display: flex;           
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
